@@ -7,6 +7,7 @@
 !/check_upstream_package_r00.py
 !/remote_preflight_r00.py
 !/PUBLIC_PILOT_PROTOCOL.md
+!/RUNTIME_READBACK_R00.md
 !/.github/
 !/.github/workflows/
 !/.github/workflows/native-cpu-r00.yml

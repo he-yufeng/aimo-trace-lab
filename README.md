@@ -1,54 +1,36 @@
 # AIMO Trace Lab — source-only pilot
 
-Only original source, mathematical controls and a manually dispatched CPU
-preflight workflow are published. Workspace receipts referenced below, raw
-datasets, held-out labels, models, environments, caches, contact/proposal records
-and credentials are excluded by a strict file allowlist. There is no new
-predictive improvement, target8B/CUDA validation or award claim. See
-[the frozen public pilot](PUBLIC_PILOT_PROTOCOL.md). The following local status
-index does not imply its private receipt files are in the public repository.
+Original implementation of temporal uncertainty summaries: relative-position
+slopes, front/tail changes, tail variability and excess path variation for
+entropy, top-two margins and selected-token log probabilities. Twelve scalars
+plus a valid-token count; no trained predictor or novelty claim for the general
+idea of temporal uncertainty. Nine mathematical/boundary controls pass.
 
-Account signup is **actually approved** on CodaBench16180. Current Competition
-phase30038 closes November1 12:55UTC; Small36241 and Main36237 are independent
-tasks. Signup is not a submitted method, score, rank or award.
+The first real CPU preflight **passed** on October6,2026:30upstream unit/contract
+tests (including mocks),9original controls, byte-identical Main/Small packages,
+and actual135M-model generation with repeatable14aggregate and13temporal features.
+It is **not** an8B model, CUDA, official Docker, competition accuracy or award
+proof. See [the actual result and scope](RUNTIME_READBACK_R00.md) and
+[the frozen pilot](PUBLIC_PILOT_PROTOCOL.md).
 
-An organizer-linked free-compute request was **actually recorded** on October6:
-one40GB A100,16GPU-hours, interruptible. Allocation has not been granted; no
-instance, paid commitment or new credential exists. Do not submit it again.
+The separately attributed, unchanged official uncertainty baseline was submitted
+once to CodaBench16180 Small task36241 as963852. At05:31UTC October6 its actual
+server status wasRunning; no score or award is claimed here. Its pretrained
+artifact and fourteen-feature classifier are upstream work, not our original
+contribution. Unsupported current models returnFalse; interface coverage is
+not successful cross-model modeling.
 
-## Reproduction entry points
+The manual-only workflow is now disabled after its one original terminal run.
+It used a free standard public Linux runner, read-onlypermissions, no secrets,
+paid runner, artifact/cache upload, external inference API or scheduled jobs.
 
-- `registration_2026-10-06.json`: exact signup/readback scope; no secrets.
-- `PILOT_R00.md`: pre-result first-submission gates and bounded free pilot.
-- `package_audit_r00.json`: literal pinned upstream Main/SmallZIP audit, passed.
-- `preflight_initial_failures_r00.json`: wrong ambient interpreter and missing
-  sparse-checkout fixture failures, preserved before corrections.
-- `dependency_install_initial_failure_r00.json`: original installer network
-  timeout after581.92seconds; no model execution occurred.
-- `bounded_dependency_retry_r00.py`: one consumed-or-pending changed-transport
-  retry;120secondHTTP and600second parent cap, frozen dependencies unchanged.
-- `native_cpu_smoke_r00.py`: actual smallCPU-model inference compatibility check,
-  not DeepSeek8B/CUDA/full-Docker/quality proof. Its receipt exists only after an
-  actual completed attempt.
-- `trace_shape_r01.py`: original temporal summaries; nine mathematical controls
-  passed. No trained predictor or evidence of improved robustness accuracy yet.
-- `COMPUTE_PROPOSAL_R01.md` and `compute_request_2026-10-06.json`: actual free
-  resource request; no promised allocation or outcome.
-- `PUBLIC_DATA_LIMITATIONS_R00.md`: one-model public141-row sample, imbalance,
-  grouping and cross-model-transfer limitations. No private evaluation access.
+Only original source and bounded validation/reporting code are published.
+Workspace registrations, contact/proposal receipts, raw datasets, frozen
+held-out labels, models, environments, caches and credentials remain excluded
+by a strict allowlist. Upstreamcode/artifacts are downloaded for the permitted
+example test, not mirrored or claimed as original; no new redistribution
+license is asserted for upstream code or raw datasets.
 
-Pinned upstream source is the separate sibling
-`../aimo-interpretability-2026-source-tgpPvy` at
-`de794053debe75a711400696e66b60937cebbb1b`.
-Its unmodified baseline supports DeepSeekR1-0528-Qwen3-8B only; other current
-models returnFalse. The trained artifact, fourteen aggregate features, model,
-generation parameters and decision threshold are upstream, not our original
-contribution. Only the first Small trial is planned; no model weights/data are
-included in its1028260-byteZIP. No trained-probe54MBartifact was downloaded.
-
-The latest private CV informed selection via mathematics and agent/evaluation
-strengths. Neither CV contents nor employer material are uploaded. Keep this
-record private; no blanket upstream-code or raw-dataset redistribution license
-is invented. Month capCNY2000, current portfolio plan1550, max2deep lines;
-first pilot remains zero service spend. Known0new service expenditure is not
-an audit of all subscriptions, electricity or other projects' invoices.
+```sh
+python -B -m unittest test_trace_shape_r01.py -v
+```
