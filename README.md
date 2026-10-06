@@ -14,8 +14,10 @@ proof. See [the actual result and scope](RUNTIME_READBACK_R00.md) and
 [the frozen pilot](PUBLIC_PILOT_PROTOCOL.md).
 
 The separately attributed, unchanged official uncertainty baseline was submitted
-once to CodaBench16180 Small task36241 as963852. At05:31UTC October6 its actual
-server status wasRunning; no score or award is claimed here. Its pretrained
+once to CodaBench 16180 Small task 36241 as 963852. At 05:37 UTC October 6,
+the official status was Finished: accuracy 0.5714285714, coverage 1,
+invalid predictions 0. This is a current-stage baseline score, not a final
+test result, rank, award, or original-method improvement. Its pretrained
 artifact and fourteen-feature classifier are upstream work, not our original
 contribution. Unsupported current models returnFalse; interface coverage is
 not successful cross-model modeling.
