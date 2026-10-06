@@ -1,0 +1,12 @@
+*
+!/.gitignore
+!/README.md
+!/trace_shape_r01.py
+!/test_trace_shape_r01.py
+!/native_cpu_smoke_r00.py
+!/check_upstream_package_r00.py
+!/remote_preflight_r00.py
+!/PUBLIC_PILOT_PROTOCOL.md
+!/.github/
+!/.github/workflows/
+!/.github/workflows/native-cpu-r00.yml
